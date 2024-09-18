@@ -78,3 +78,51 @@ const person = {
       return this.firstName + " " + this.lastName;
     }
   };
+
+  console.log("acessing the items of the objects");
+  console.log(person["lastName"]);
+  console.log(person.lastName)
+  person['lastName']='Mchael';
+  console.log(person.lastName);
+  person.lastName ='Nice';
+  console.log(person.lastName);
+
+  //Arrays in java
+  let myArray=[];
+  myArray[0]=1;
+  myArray[1]=11;
+  myArray[2]=100;
+  console.log(myArray);
+  myArray[2]='mike';
+
+  console.log(myArray);
+
+  let newArray= new Object();
+  console.log(newArray);
+
+console.log('functions')
+
+// function greet( age){
+//     Fname="Alice"
+//     this.age=age;
+//     console.log('Hello '+this.Fname);
+//    // console.log('You are  '+age);
+
+// }
+// console.log(greet(age))
+
+// function newFunct(age){
+//     let ag=this.age;
+//     console.log("The square of "+(ag)+" is "+(ag**2));
+
+
+// }
+// console.log(newFunct(4));
+  let newobj={
+    class:'CE3',
+    Name:function (Lname){
+this.Lname=Lname;
+    }
+  }
+  console.log(newobj.Name('mike'));
+  
