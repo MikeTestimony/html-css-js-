@@ -125,4 +125,12 @@ this.Lname=Lname;
     }
   }
   console.log(newobj.Name('mike'));
-  
+
+  let obj2={
+    msg:'WELL DONW',
+    method : function funct3 (){
+        console.log('this is a function of an instance')
+
+    }
+  }
+  console.log(obj2.method())

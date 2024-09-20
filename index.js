@@ -1,5 +1,6 @@
 console.log('Hello');
 let Mic = 'name';
+Mic='Username'
 Mic='School';
 const name='Umat';
 nameg='again'
