@@ -8,4 +8,4 @@ console.log(myArray[1]);
 NewArray=["Man","Woman","Boy"];
 console.log(NewArray[1]);
 console.log("Thank you for trusting in our servises")
-let mike=6474;
+let mike=647;
